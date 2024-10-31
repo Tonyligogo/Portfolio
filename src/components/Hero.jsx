@@ -11,19 +11,19 @@ function Hero() {
   
   return (
     <div className="relative pt-[150px] md:pt-[200px] md:place-content-center md:px-4 lg:px-14">
-      <div className="flex flex-col-reverse gap-9 md:flex-row md:justify-between items-center lg:justify-around ">
+      <div className="flex flex-col-reverse gap-9 md:flex-row md:justify-between items-center lg:justify-evenly ">
         <div className="lg:flex-1 flex flex-col gap-4 px-4 md:px-10">
           <h1 className="text-2xl font-bold flex gap-2 items-center text-gray-500">
             <Icon icon="noto:waving-hand" width="24" />
             Hey there, I&apos;m Ligogo
           </h1>
-          <p className="text-lg">
+          <p className="text-[17px] md:text-lg text-gray-600">
             I&apos;m a{" "}
             <span className="text-2xl md:text-3xl font-bold text-transparent bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 bg-clip-text">
-              Software Developer
+              Software Developer.
             </span>
             <br /> I combine technical expertise with creative flair to deliver
-          exceptional web development services. Let&apos;s partner to elevate
+          exceptional web development services. <br /> Let&apos;s partner to elevate
           your online presence and achieve your business goals.
           </p>
           {/* <ul className="flex gap-2">
@@ -74,7 +74,7 @@ function Hero() {
             </li>
             
           </ul>
-          <button className=" py-2 px-4 bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 text-white rounded-lg flex items-center gap-2 w-fit">
+          <a href="#contact" className=" py-2 px-4 bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 text-white rounded-lg flex items-center gap-2 w-fit">
             Let&apos;s talk{" "}
             <Icon
               icon="solar:arrow-right-outline"
@@ -82,7 +82,7 @@ function Hero() {
               height="1rem"
               style={{ color: "white" }}
             />
-          </button>
+          </a>
         </div>
         <div className="lg:flex-1 px-4 h-[45vh] md:h-[35vh] lg:h-[60vh] w-full">
           <div className="relative w-full lg:w-3/4 h-full lg:ml-auto">

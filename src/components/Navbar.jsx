@@ -17,12 +17,12 @@ function Navbar({active}) {
         />
       </div>
       <nav className="hidden sm:flex gap-6 items-center ">
-        <a href="#home" className="text-white  hover-effect">Home</a>
-        <a href="#myStack" className="text-white hover-effect">My stack</a>
-        <a href="#myWork" className="text-white hover-effect">My work</a>
-        <a href="#testimonials" className="text-white hover-effect">Testimonials</a>
+        <a href="#" className="text-white  hover-effect">Home</a>
+        <a href="#skills" className="text-white hover-effect">My stack</a>
+        <a href="#work" className="text-white hover-effect">My work</a>
+        {/* <a href="#testimonials" className="text-white hover-effect">Testimonials</a> */}
         <a href="#contact" className="text-white hover-effect">Contact</a>
-        <button className=" py-2 px-4 bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 text-white rounded-lg flex items-center gap-2">Let&apos;s talk <Icon icon="solar:arrow-right-outline" width="1rem" height="1rem"  style={{color: 'white'}} /></button>
+        <a href="#contact" className=" py-2 px-4 bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 text-white rounded-lg flex items-center gap-2">Let&apos;s talk <Icon icon="solar:arrow-right-outline" width="1rem" height="1rem"  style={{color: 'white'}} /></a>
       </nav>
     </div>
     </div>

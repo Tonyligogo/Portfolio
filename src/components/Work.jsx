@@ -1,7 +1,7 @@
 
 function Work() {
   return (
-    <div className="bg-dark py-10 text-white">
+    <div id="work" className="scroll-mt-16 bg-dark py-10 text-white">
         <div className="px-4 text-center md:text-left md:px-10">
             <span className="font-bold text-base text-sky-500">My work</span>
             <h2 className="text-[26px] md:text-4xl mt-5 font-bold">Check out some of the work <br className="hidden md:block"/> I&apos;ve done</h2>
@@ -13,7 +13,7 @@ function Work() {
                     <img src="https://cdn.dribbble.com/userupload/15775593/file/original-f411409b7d9ce2cea75123e02223f17d.png?resize=400x0" alt="" className="w-full h-full"/>
                 </div>
                 <div className="flex-1">
-                    <p>This online job board connects job seekers with employers, providing a user-friendly platform for posting and searching job listings. With features like advanced search filters, resume uploads, and application tracking, the site streamlines the hiring process for both candidates and companies, making it easier to find the right fit.</p>
+                    <p className="text-sm md:text-base tracking-wide leading-relaxed text-gray-400">This online job board connects job seekers with employers, providing a user-friendly platform for posting and searching job listings. With features like advanced search filters, resume uploads, and application tracking, the site streamlines the hiring process for both candidates and companies, making it easier to find the right fit.</p>
                     <ul className="flex flex-wrap mt-5 gap-2">
                         <li className="bg-sky-500 text-white rounded-full px-2 py-1 text-sm">Nextjs</li>
                         <li className="bg-sky-500 text-white rounded-full px-2 py-1 text-sm">MongoDB</li>
@@ -25,7 +25,7 @@ function Work() {
                     <img src="https://llllline.com/images/thumbs/0000046430_online-pharmacy-app-ui-template_800.jpeg" alt="" className="w-full h-full"/>
                 </div>
                 <div className="flex-1">
-                    <p>The pharmacy e-commerce site offers a seamless shopping experience for customers looking to purchase health and wellness products online. With a secure payment system, easy navigation, and detailed product descriptions, users can quickly find and order medications and health supplies, all while enjoying reliable delivery services.</p>
+                    <p className="text-sm md:text-base tracking-wide leading-relaxed text-gray-400">The pharmacy e-commerce site offers a seamless shopping experience for customers looking to purchase health and wellness products online. With a secure payment system, easy navigation, and detailed product descriptions, users can quickly find and order medications and health supplies, all while enjoying reliable delivery services.</p>
                     <ul className="flex flex-wrap mt-5 gap-2">
                         <li className="bg-sky-500 text-white rounded-full px-4 py-1 text-sm">Nextjs</li>
                         <li className="bg-sky-500 text-white rounded-full px-4 py-1 text-sm">Clerk Auth</li>
@@ -40,7 +40,7 @@ function Work() {
                     <img src="https://cms.pixso.net/images/articles/ecommerce-dashboard.png" alt="" className="w-full h-full"/>
                 </div>
                 <div className="flex-1">
-                    <p>The ERP system I developed integrates various business processes into a single, cohesive platform. This custom solution enhances efficiency by automating tasks such as inventory management, order processing, and financial reporting. With a user-friendly interface and real-time data access, businesses can make informed decisions and improve overall productivity.</p>
+                    <p className="text-sm md:text-base tracking-wide leading-relaxed text-gray-400">The ERP system I developed integrates various business processes into a single, cohesive platform. This custom solution enhances efficiency by automating tasks such as inventory management, order processing, and financial reporting. With a user-friendly interface and real-time data access, businesses can make informed decisions and improve overall productivity.</p>
                     <ul className="flex flex-wrap mt-5 gap-2">
                         <li className="bg-sky-500 text-white rounded-full px-4 py-1 text-sm">Reactjs</li>
                         <li className="bg-sky-500 text-white rounded-full px-4 py-1 text-sm">OAuth</li>
