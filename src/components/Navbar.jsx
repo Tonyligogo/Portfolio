@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 function Navbar({active}) {
   return (
-    <div className={`bg-[#0b1023] py-5 ${active ? 'rounded-none' : 'rounded-lg'}`}>
+    <div className={`bg-[#0b1023] py-5 ${active ? 'rounded-none shadow-sky-100 shadow-sm' : 'rounded-lg'}`}>
     <div className=" flex items-center lg:justify-around justify-between px-[2rem]">
       <h1 className=" font-bold text-2xl text-transparent bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 bg-clip-text">
         ligogo.dev

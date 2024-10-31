@@ -7,7 +7,7 @@ function Services() {
   return (
     <div className="mt-10">
         <h3 className="text-center mb-10 text-gray-500 font-bold text-base uppercase">What I build</h3>
-    <ul className="grid grid-cols-2 w-3/4 mx-auto px-10 justify-between gap-8">
+    <ul className="grid grid-cols-1 md:grid-cols-2 lg:w-3/4 mx-auto px-4 md:px-10 justify-between gap-8">
       <li className="relative bg-dark rounded-lg p-8 space-y-4">
         <img src={Portfolio} alt="portfolio" className="size-12 absolute -top-6"/>
         <h3 className="text-2xl font-bold text-white">Personal Portfolios</h3>
@@ -29,10 +29,10 @@ function Services() {
         <p className="text-base text-gray-400 leading-relaxed tracking-wide ">I develop dynamic web applications that provide interactive features and functionalities. Whether it&apos;s a project management tool, a social networking site, or a custom solution, I develop these applications to meet your needs.</p>
       </li>
     </ul>
-    <div className="flex justify-around bg-dark mt-10 pt-10">
+    <div className="flex flex-col md:flex-row px-4 justify-around bg-dark mt-10 pt-10">
     <div className="flex gap-4 items-center">
-            <h3 className="text-white text-4xl font-bold">Choose me for</h3>
-            <ul className="text-4xl font-bold text-gray-400">
+            <h3 className="text-white text-xl md:text-2xl lg:text-4xl font-bold">Choose me for</h3>
+            <ul className="text-xl md:text-2xl lg:text-4xl font-bold text-gray-400">
                 <li>Quality work</li>
                 <li>Responsive site</li>
                 <li className="text-sky-500">Good Price</li>
