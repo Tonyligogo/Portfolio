@@ -1,6 +1,12 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Avatar from "../assets/profile.jpg";
 import Me from "../assets/Myself.png"
+import CssIcon from "../assets/css.png";
+import ReactIcon from "../assets/react.png";
+import HtmlIcon from "../assets/html.png";
+import TailwindIcon from "../assets/tailwind.png";
+import NextjsIcon from "../assets/next.webp";
+import JsIcon from "../assets/js.png";
 import { useEffect, useState } from "react";
 function Hero() {
   const [showPopUp, setShowPopUp] = useState(false);
@@ -13,7 +19,7 @@ function Hero() {
     };
   }, []);
   return (
-    <div className="relative h-[calc(100vh-65px)] md:place-content-center md:px-4 lg:px-14">
+    <div className="relative mt-[200px] md:place-content-center md:px-4 lg:px-14">
       <div
         className={` ${
           showPopUp ? " flex " : "hidden"
@@ -55,7 +61,7 @@ function Hero() {
             <br /> with a passion for creating engaging and user-friendly
             interfaces.
           </p>
-          <ul className="flex gap-2">
+          {/* <ul className="flex gap-2">
             <li className="size-8 grid place-items-center rounded-md bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600">
               <Icon
                 icon="prime:linkedin"
@@ -80,6 +86,28 @@ function Hero() {
                 style={{ color: "white" }}
               />
             </li>
+          </ul> */}
+          <ul className="flex gap-3">
+          <li className="bg-white border grid place-content-center size-14 rounded-md">
+              <img src={HtmlIcon} alt="html logo" className="size-8"/>
+            </li>
+            <li className="bg-white border grid place-content-center size-14 rounded-md">
+              <img src={CssIcon} alt="css logo" className="size-10"/>
+            </li>
+            <li className="bg-white border grid place-content-center size-14 rounded-md">
+              <img src={JsIcon} alt="js logo" className="size-8"/>
+            </li>
+            <li className="bg-white border grid place-content-center size-14 rounded-md">
+              <img src={ReactIcon} alt="react logo" className="size-8"/>
+            </li>
+            <li className="bg-white border grid place-content-center size-14 rounded-md">
+              <img src={NextjsIcon} alt="nextjs logo" className="h-10"/>
+            </li>
+            
+            <li className="bg-white border grid place-content-center size-14 rounded-md">
+              <img src={TailwindIcon} alt="tailwind logo" className="h-6"/>
+            </li>
+            
           </ul>
           <button className=" py-2 px-4 bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 text-white rounded-lg flex items-center gap-2 w-fit">
             Let&apos;s talk{" "}
@@ -102,6 +130,12 @@ function Hero() {
           </div>
         </div>
       </div>
+      <div className="space-y-2 text-center w-3/4 mx-auto">
+        <span className="font-bold text-base text-gray-500 uppercase">What I do</span>
+        <h2 className="text-5xl font-bold text-dark">You Never Have To <br /> Worry About Your Website</h2>
+        <p className="text-lg text-gray-600">I focus on building custom websites for individuals and businesses. I write every line of code by hand 😎 (okay, most lines 😁), to ensure your site runs smoothly and ranks well on search engines like Google, which helps attract more visitors and grow your revenue. I believe in fostering strong relationships with my clients, offering continuous support and updates to keep your website aligned with your business goals. <br /> Your success is my priority, and I&apos;m dedicated to helping you shine online!</p>
+      </div>
+     
     </div>
   );
 }
