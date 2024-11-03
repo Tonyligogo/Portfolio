@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
-import Me from "../assets/Myself.png"
+import Me from "../assets/MyPic2.png"
 import CssIcon from "../assets/css.png";
 import ReactIcon from "../assets/react.png";
 import HtmlIcon from "../assets/html.png";
@@ -90,7 +90,7 @@ function Hero() {
           <div className="h-full relative overflow-hidden rounded-b-full">
             <img src={Dots} alt="dots" className="absolute left-8 w-1/2 top-1/2 -translate-y-1/2" />
             <div className="absolute bottom-0 w-full bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 h-1/2 origin-top-right -rotate-6"></div>
-            <img src={Me} alt="my picture" className="w-3/4 h-full object-cover absolute bottom-0 left-1/2 -translate-x-1/2"/>
+            <img src={Me} alt="Myself" className="h-full object-cover absolute bottom-0 left-1/2 -translate-x-1/2"/>
           </div>
           </div>
         </div>

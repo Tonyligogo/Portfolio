@@ -34,7 +34,7 @@ function Services() {
             <h3 className="text-white text-xl md:text-2xl lg:text-4xl font-bold">Choose me for</h3>
             <ul className="text-xl md:text-2xl lg:text-4xl font-bold text-gray-400">
                 <li>Quality work</li>
-                <li>Responsive wesite</li>
+                <li>Responsive website</li>
                 <li className="text-sky-500">Good Price</li>
                 <li>SEO optimization</li>
                 <li>Quick delivery</li>
