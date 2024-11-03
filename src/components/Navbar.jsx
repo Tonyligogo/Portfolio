@@ -32,7 +32,7 @@ function Navbar({active}) {
       </nav>
     </div>
     <aside className={`absolute w-[80vw] top-[66px] h-[100vh] bg-[#0b1023] z-50 transition-all ${menuOpen ? 'left-0' :'-left-[1000px]'}`}>
-    <nav className="flex flex-col gap-6 items-start px-8">
+    <nav className="flex flex-col gap-6 items-start px-8 pt-8">
         <a onClick={()=>setMenuOpen(false)} href="#" className="text-white hover-effect">Home</a>
         <a onClick={()=>setMenuOpen(false)} href="#skills" className="text-white hover-effect">My stack</a>
         <a onClick={()=>setMenuOpen(false)} href="#work" className="text-white hover-effect">My work</a>
