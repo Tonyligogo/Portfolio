@@ -31,7 +31,7 @@ function Navbar({active}) {
         <a href="#contact" className=" py-2 px-4 bg-gradient-to-r from-sky-500 via-blue-500 to-blue-600 text-white rounded-lg flex items-center gap-2">Let&apos;s talk <Icon icon="solar:arrow-right-outline" width="1rem" height="1rem"  style={{color: 'white'}} /></a>
       </nav>
     </div>
-    <aside className={`absolute w-[80vw] top-[66px] h-[100vh] bg-[#0b1023] z-50 transition-all ${menuOpen ? 'left-0' :'-left-[1000px]'}`}>
+    <aside className={`absolute w-[80vw] top-[66px] h-[100vh] bg-[#0b1023] z-50 transition-all md:hidden ${menuOpen ? 'left-0' :'-left-[1000px]'}`}>
     <nav className="flex flex-col gap-6 items-start px-8 pt-8">
         <a onClick={()=>setMenuOpen(false)} href="#" className="text-white hover-effect">Home</a>
         <a onClick={()=>setMenuOpen(false)} href="#skills" className="text-white hover-effect">My stack</a>
